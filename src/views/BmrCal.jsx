@@ -8,7 +8,7 @@ export default function BmrCal() {
   return (
     <>
       <NavBar />      
-      <HeaderCal titleName="BMR Calculator" imgName={bmr} />
+      <HeaderCal titleName="BMR Calculator" imgName={bmr} headerColor={{textAlign:"center", color: " #ff0000ff"}} />
       <Footer emoji="❤️" />
     </>
   )

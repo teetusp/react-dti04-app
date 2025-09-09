@@ -7,7 +7,7 @@ export default function CarCal() {
   return (
     <>
       <NavBar />
-      <HeaderCal titleName="Car Calculator" imgName={car} />
+      <HeaderCal titleName="Car Calculator" imgName={car} headerColor={{textAlign:"center", color: " #006811ff"}}/>
       <Footer emoji="😛"/>
     </>
   )
